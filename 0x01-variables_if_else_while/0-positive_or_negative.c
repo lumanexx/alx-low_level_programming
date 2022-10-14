@@ -1,18 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
- * main - Prints Random number
- * Descrition: assing a random number to the variable
+ * main - Entry point
  *
- * Return: 0
+ * Description: print positive and negetive numbers
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = rand(void) - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
@@ -22,8 +25,8 @@ int main(void)
 		printf("%d is zero\n", n);
 	}
 	else
-	{	printf("%d is negetive\n", n);
+	{
+		printf("%d is negetive\n", n);
 	}
 	return (0);
 }
-

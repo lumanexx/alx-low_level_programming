@@ -3,20 +3,11 @@
 
 /**
  * main - function that takes a pointer as parameter and updates it values
- *
- * Return: Always 0.
+ *@n: a pointer
+ * Return: void basically nothing is returned
  */
-int main(void)
-{
-	char s1[98] = "Hello ";
-	char s2[] = "World!\n";
-	char *p;
 
-	printf("%s\n", s1);
-	printf("%s", s2);
-	p =  _strcpy(s1, s2);
-	printf("%s", s1);
-	printf("%s", s2);
-	printf("%s", p);
-	return (0);
+void reset_to_98(int *n)
+{
+	*n = 98;
 }

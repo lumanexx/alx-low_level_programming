@@ -2,9 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - function that takes a pointer as parameter and updates it values
- *@n: a pointer
- * Return: void basically nothing is returned
+ * reset_to_98 - take a pointer and update
+ *
+ * @n : a pointer
+ *
+ * Return: void, basically return nothing
  */
 
 void reset_to_98(int *n)

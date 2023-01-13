@@ -1,1 +1,1 @@
-0x17-doubly_linked_lists
+SOLUTION TO LINKED LIST
